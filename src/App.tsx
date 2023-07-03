@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import Profiles from './components/Profiles/Profiles';
+import NewProfile from './components/NewProfile/NewProfile';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Profiles</h1>
+      <Profiles />
+      <h1>Add a new profile</h1>
+      <NewProfile />
     </div>
   );
 }
