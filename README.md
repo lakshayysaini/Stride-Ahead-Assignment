@@ -6,7 +6,9 @@ This project is basically my submission for StrideAhead in which I've made a das
 
 In the project directory, you can run:
 
-### `Clone the repository or download as zip file and extract.`
+### `git clone.`
+
+This will clone the repository or you can even download the zip file of the code and extract it afterwards.
 
 ### `npm install`
 
